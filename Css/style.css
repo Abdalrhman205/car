@@ -1,0 +1,243 @@
+
+:root{
+    --red-color:rgb(201, 42, 42);
+     --pink-color:rgb(209, 30, 30);/*chocolate tan */
+    --black-color:black;
+    --title-color:tan;
+    --white-color:white;
+    --grey-white-t:grey;
+    --orange-icon:orangered;
+
+    /* --brongrey-color:chocolate;
+    --br-color:darkcyan;
+    --br-icon-color:chocolate; */
+}
+span{
+    color: var(--orange-icon);
+}
+*{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* background-color:orangered; */
+   
+   
+}
+
+/* fmgdfkgdf */
+.nav{
+   display: flex;
+   justify-content: space-around;
+  padding: 10px;
+   width: 100%;height: 50px;
+   background-color:var(--pink-color) ;
+}
+.nav-2{
+
+
+}
+
+.title-nav{
+
+}
+.ull{
+   
+}
+.nav a{
+    color: var(--title-color);
+    margin: 30px;
+   text-decoration: none;
+}
+/* hjkhdgkh */
+.p-t-body{
+    background-image: url(../imag/pexels-erik-mclean-5214413.jpg);
+    width: 100%;height: 1000px;
+    color: var(--white-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t-body h1{
+    padding-top: 800px;
+   text-align: center;
+}
+.p-t-body p{
+    
+    text-align: center;
+}
+/* t-2-body *****************/
+.t-2-body{
+    width: 100%;height: 1200px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding-top: 50px;
+    
+}
+.tt-2-body {
+    color: var(--white-color);
+    text-align: center;
+   
+}
+/* t-2-body *************/
+/* box-t-t-2-body */
+.container{
+    text-align: center;
+    /* padding-top: 50px; */
+    display: flex;
+    justify-content: space-around;
+}
+.box-t-t-2-body{
+   
+
+ 
+    padding-top: 50px;
+  
+}
+.box p{
+  font-size: 12px;
+   color: var(--grey-white-t);
+}
+.box h3{
+    font-size: 15px;
+     
+}
+.icon{
+    padding: 10px;
+    color: var(--orange-icon);
+
+ }
+ .icon:hover{
+    color: var(--white-color);
+    
+
+ }
+.box a{
+    text-decoration: none;
+    color: var(--orange-icon);
+  
+}
+.a-box{
+    background-color: var(--black-color);
+    outline: 1px solid var(--orange-icon);
+    width: 100px;
+    padding:5px;
+    border-radius:20px ;
+}
+/* box-t-t-2-body */
+/* ppp-body */
+/* .ppp-body{
+    display: flex;
+    justify-content: center;
+   
+}
+.ppp-body img{
+    padding-top: 40px;
+    width: 300px;height: 300px;
+    background-size: contain;
+   
+} */
+/* ppp-body */
+/* you-are...-p */
+.you-are-p{
+    text-align: right;
+    margin: 10px;
+    margin-top: 50px;
+    margin-right: 300px;
+}
+/* you-are...-p */
+/* model-comparison */
+.model-comparison{
+
+  
+}
+.model-comparison h2{
+  text-align: center;
+}
+.box-1{
+    display: flex;
+    justify-content: space-around;
+}
+.model-box{
+    width: 300px;height: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.box-comparison {
+   background-color: var(--orange-icon);
+   height: 40px;
+
+}
+.box-comparison-1 {
+    background-color: var(--title-color);
+    height: 40px;
+ 
+ }
+.back-color-box-comparison{
+    width: 300px;height: 150px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+.p-box-comparison {
+    width: 300px;
+    
+    
+    color: var(--black-color);
+    
+    text-align: center;
+}
+.img-box-comparison{
+    width: 300px;
+    height: 400px;
+
+}
+.price-box-comparison{
+    text-align: center;
+}
+.icon-box-comparison{
+    margin-left: 50px;
+    position: absolute;
+}
+.p-icon-box-comparison{
+    margin-left: 80px;
+    position: relative;
+    bottom: 5px;
+
+}
+/* model-comparison */
+/* down */
+.down{
+    width: 100%;height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+  }
+  .t-dowm{
+    font-size: 30px;
+    color: white;
+  }
+  .t-dowm b{
+    font-size: 30px;
+    color: var(--orange-icon);
+  }
+.t-dowm a{
+    text-decoration: none;
+    
+    color: var(--orange-icon);
+  } 
+  .down-icon{
+  
+  } 
+.down-icon-1{
+      font-size: 30px;
+      margin: 3px;
+      margin-left: 30px;
+      color: var(--orange-icon);
+      position: relative;
+      bottom: 20px;
+}
+/* down */
